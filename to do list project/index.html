@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <P id = "name">To Do List ^_^</p>
+    <input placeholder="Enter Your Task" id="input-task" onkeydown="enter(event)">
+    <button id="add-btn" class="main-btn" onclick="add() , task_list()">Add</button>
+    <button id ="clear-btn" class="main-btn" onclick="clear_tasks()">Clear</button>
+    <div id="list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
